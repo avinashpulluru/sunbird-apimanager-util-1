@@ -16,7 +16,7 @@ variables:
   containerRegistry: 'estacraks.azurecr.io'
   dockerfilePath: '**/Dockerfile'
   tag: '$(Build.BuildId)'
-  imagePullSecret: 'estacraks32fd-auth'
+  imagePullSecret: 'estacraks1050c1bd-auth'
 
   # Agent VM image name
   vmImageName: 'ubuntu-latest'
