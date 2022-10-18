@@ -38,6 +38,7 @@ stages:
         jdkArchitectureOption: 'x64'
         jdkSourceOption: 'PreInstalled'
     - task: Gradle@3
+      continueOnError: true
       inputs:
         gradleWrapperFile: 'gradlew'
         tasks: 'build'
